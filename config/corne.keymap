@@ -36,10 +36,10 @@
         };
         RAISE {
             bindings = <
-    &kp TAB    &kp SE_EXLM  &kp SE_DQUO  &kp SE_HASH   &kp SE_CURR  &kp SE_PERC  &kp SE_AMPR  &kp SE_SLSH  &kp SE_LPRN  &kp SE_RPRN  &kp SE_EQL   &kp SE_QUES
-    &kp LSHFT  &none        &kp SE_AT    &none         &kp SE_DLR   &none        &none        &kp SE_LCBR  &kp SE_LBRC  &kp SE_RBRC  &kp SE_RCBR  &kp SE_BSLS
-    &kp LCTRL  &kp SE_LABK  &kp SE_RABK  &kp SE_PIPE   &kp SE_V     &none        &none        &kp SE_ASTR  &kp SE_QUOT  &kp SE_ACUT  &kp SE_GRV   &kp SE_TILD
-                                         &kp LEFT_GUI  &trans       &trans       &trans       &trans       &trans
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+                         &none  &none  &none  &none  &none  &none
             >;
         };
         FUNC {
