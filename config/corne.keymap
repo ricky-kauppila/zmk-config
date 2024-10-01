@@ -108,7 +108,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        FSE__LAYER_CSE_D {
+        FN_LAYER_CND {
             if-layers = <1 2>;
             then-layer = <3>;
         };
