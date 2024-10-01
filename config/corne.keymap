@@ -29,7 +29,7 @@
         LOWER {
             bindings = <
     &kp TAB    &kp SE_1     &kp SE_2     &kp SE_3     &kp SE_4     &kp SE_5     &kp SE_6    &kp SE_7    &kp SE_8     &kp SE_9     &kp SE_0  &kp BSPC
-    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    &kp LSHFT  &none        &kp SE_PLUS  &kp SE_MINS  &kp SE_ASTR  &kp SE_SLSH  &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT    &none     &kp DEL
     &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
                          &none  &none  &none  &none  &none  &none
             >;
