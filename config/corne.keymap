@@ -28,10 +28,10 @@
         };
         LOWER {
             bindings = <
-    $none  $none  $none  $none  $none  $none  $none  $none  $none  $none  $none  $none
-    $none  $none  $none  $none  $none  $none  $none  $none  $none  $none  $none  $none
-    $none  $none  $none  $none  $none  $none  $none  $none  $none  $none  $none  $none
-                         $none  $none  $none  $none  $none  $none
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+                         &none  &none  &none  &none  &none  &none
             >;
         };
         RAISE {
