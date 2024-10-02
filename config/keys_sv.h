@@ -31,7 +31,7 @@
 #define SE_8 N8       // 8
 #define SE_9 N9       // 9
 #define SE_0 N0       // 0
-#define SE_PLUS MINS  // +
+#define SE_PLUS MINUS // +
 #define SE_ACUT EQUAL // ´ (dead)
 
 // Row 2
@@ -73,7 +73,7 @@
 #define SE_M M        // M
 #define SE_COMM COMMA // ,
 #define SE_DOT DOT    // .
-#define SE_MINS FSLH  // -
+#define SE_MINUS FSLH  // -
 
 /* MODIFIER SHIFT
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
