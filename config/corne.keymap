@@ -20,26 +20,26 @@
         compatible = "zmk,keymap";
         DEFAULT {
             bindings = <
-    &kp TAB    &kp SE_Q  &kp SE_W  &kp SE_E      &kp SE_R   &kp SE_T   &kp SE_Y  &kp SE_U   &kp SE_I     &kp SE_O     &kp SE_P     &kp SE_ARNG
-    &kp LSHFT  &kp SE_A  &kp SE_S  &kp SE_D      &kp SE_F   &kp SE_G   &kp SE_H  &kp SE_J   &kp SE_K     &kp SE_L     &kp SE_ODIA  &kp SE_ADIA
-    &kp LCTRL  &kp SE_Z  &kp SE_X  &kp SE_C      &kp SE_V   &kp SE_B   &kp SE_N  &kp SE_M   &kp SE_COMM  &kp SE_DOT   &kp SE_MINS  &kp RSHFT
-                                   &kp LEFT_ALT  &mo LOWER  &kp SPACE  &kp RET   &mo RAISE  &kp RALT
+    &kp TAB    &kp SE_Q  &kp SE_W  &kp SE_E      &kp SE_R   &kp SE_T   &kp SE_Y  &kp SE_U  &kp SE_I     &kp SE_O     &kp SE_P     &kp SE_ARNG
+    &kp LSHFT  &kp SE_A  &kp SE_S  &kp SE_D      &kp SE_F   &kp SE_G   &kp SE_H  &kp SE_J  &kp SE_K     &kp SE_L     &kp SE_ODIA  &kp SE_ADIA
+    &kp LCTRL  &kp SE_Z  &kp SE_X  &kp SE_C      &kp SE_V   &kp SE_B   &kp SE_N  &kp SE_M  &kp SE_COMM  &kp SE_DOT   &kp SE_MINS  &kp RSHFT
+                                   &kp LEFT_ALT  &mo 1      &kp SPACE  &kp RET   &mo 2     &kp RALT
             >;
         };
         LOWER {
             bindings = <
-    &kp TAB    &kp SE_1     &kp SE_2     &kp SE_3     &kp SE_4         &kp SE_5      &kp SE_6    &kp SE_7    &kp SE_8     &kp SE_9     &kp SE_0  &kp BSPC
-    &kp LSHFT  &none        &kp SE_PLUS  &kp FSLH  &kp LS(SE_QUOT)  &kp LS(SE_7)  &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT    &none     &kp DEL
-    &kp LCTRL  &kp SE_LABK  &none        &none        &none            &none         &none       &none       &kp SE_COMM  &kp SE_DOT   &none     &kp INS
-                                         &trans       &trans           &trans        &trans      &trans      &trans
+    &kp TAB    &kp SE_1  &kp SE_2     &kp SE_3  &kp SE_4  &kp SE_5  &kp SE_6  &kp SE_7  &kp SE_8  &kp SE_9  &kp SE_0  &kp BSPC
+    &kp LSHFT  &none     &kp SE_PLUS  &none     &none     &none     &none     &none     &none     &none     &none     &none
+    &none      &none     &none        &none     &none     &none     &none     &none     &none     &none     &none     &none
+                                      &none     &none     &none     &none     &none     &none
             >;
         };
         RAISE {
             bindings = <
-    &kp TAB    &kp SE_EXLM  &kp SE_DQUO  &kp SE_HASH   &kp SE_CURR  &kp SE_PERC  &kp SE_AMPR  &kp SE_SLSH  &kp SE_LPRN  &kp SE_RPRN  &kp SE_EQL   &kp SE_QUES
-    &kp LSHFT  &none        &kp SE_AT    &none         &kp SE_DLR   &none        &none        &kp SE_LCBR  &kp SE_LBRC  &kp SE_RBRC  &kp SE_RCBR  &kp SE_BSLS
-    &kp LCTRL  &kp SE_LABK  &kp SE_RABK  &kp SE_PIPE   &kp SE_V     &none        &none        &kp SE_ASTR  &kp SE_QUOT  &kp SE_ACUT  &kp SE_GRV   &kp SE_TILD
-                                         &kp LEFT_GUI  &trans       &trans       &trans       &trans       &trans
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+                         &none  &none  &none  &none  &none  &none
             >;
         };
         FUNC {
